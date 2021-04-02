@@ -16,8 +16,6 @@ For iOS, Android or other platform this component looks same.
 ```
 npm install react-native-cross-picker
 
-# React Native users
-npm install react-native-cross-picker
 ```
 
 ### Basic Usage
