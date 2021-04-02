@@ -1,0 +1,67 @@
+{
+  "_from": "react-native-cross-picker@^1.0.2",
+  "_id": "react-native-cross-picker@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-zlvWEkBEkQpiBaneykqLRprvA3JMruFe7M8V+BvIvvEs4eRPii6uk5TPHP18Uolie7+VY4Nn7dVL31uOo+V/DQ==",
+  "_location": "/react-native-cross-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-cross-picker@^1.0.2",
+    "name": "react-native-cross-picker",
+    "escapedName": "react-native-cross-picker",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-cross-picker/-/react-native-cross-picker-1.0.2.tgz",
+  "_shasum": "2871a04daa4655ac2d6c8dcab2a3eabecf40afeb",
+  "_spec": "react-native-cross-picker@^1.0.2",
+  "_where": "G:\\javaScript\\App\\expo\\testpackegfithub\\react-native-cross-picker",
+  "author": {
+    "name": "Jude Ganihu",
+    "email": "ganihujude@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kpose/react-native-cross-picker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A fully customizable social media floating action button for react native",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0",
+    "metro-react-native-babel-preset": "^0.59.0"
+  },
+  "homepage": "https://github.com/zahidalidev/react-native-cross-picker/blob/master/README.md",
+  "keywords": [
+    "react-native",
+    "floating-action-button",
+    "social",
+    "expo",
+    "mobile",
+    "ios",
+    "android",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-cross-picker",
+  "peerDependencies": {
+    "react": "^16.0.0-beta.5",
+    "react-native": "^0.49.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpose/react-native-cross-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
