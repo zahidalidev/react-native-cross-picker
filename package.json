@@ -1,6 +1,6 @@
 {
   "name": "react-native-cross-picker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fully customizable react native picker for android and ios",
   "main": "index.js",
   "scripts": {
