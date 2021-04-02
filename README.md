@@ -9,7 +9,7 @@ A Picker component for React Native which emulates the native `<select>` interfa
 For iOS, Android or other platform this component looks same.
 
 
-## [View examples on snack.expo.io](https://snack.expo.io/@lfkwtz/react-native-cross-select)
+## [View examples on snack.expo.io](https://snack.expo.io/@zahidalidev/react-native-cross-picker)
 
 ## Getting Started
 
@@ -87,8 +87,9 @@ const styles = StyleSheet.create({
 | `iconComponent`                                          | Custom icon component to be rendered.<br>                                                                                                                                                                                                                                                                                                                                                                                                       | function that return component                                   |
 | `width`                                | Additional props to pass to the main component to set the width default will be 100%.                                                                                                                                                                                                                                                                                                                             | number, percentage like width="80%".                   |
 | `placeholder`                         | Default placeholder when item is not selected                                                                                                                                                                                                                                                                                                                                                                 | string                   |
-| `modalMarginTop`<br>                                    | margin of the popup model from the top default will be 50%                                                                                                                                                                                                                                                                                                                                                                                 | function                 |
-| `modalMaxHeight`<br>Maximum hight of the popup modal                                                                                                                                                                                                                                             | number, percentage etc.    
+| `modalMarginTop`<br>                                    | margin of the popup model from the top default will be 50%                                                                                                                                                                                                                                                                                                                                                                                 | number, percentage etc.                 |
+| `modalMaxHeight`<br>                                    | Maximum hight of the popup modal                                                                                                                                                                                                                                                                                                                                                                                                 | number, percentage etc.
+
 ## License
 
-react-native--cross-picker is [MIT licensed](https://github.com/lawnstarter/react-native-cross-picker/tree/master/LICENSE) and built with :heart: by Zahid Ali.
+react-native--cross-picker is [MIT licensed](https://github.com/zahidalidev/react-native-cross-picker/blob/master/LICENSE) and built with :heart: by Zahid Ali.
