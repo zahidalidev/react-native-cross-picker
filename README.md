@@ -92,4 +92,4 @@ const styles = StyleSheet.create({
 
 ## License
 
-react-native--cross-picker is [MIT licensed](https://github.com/zahidalidev/react-native-cross-picker/blob/master/LICENSE) and built with :heart: by Zahid Ali.
+react-native-cross-picker is [MIT licensed](https://github.com/zahidalidev/react-native-cross-picker/blob/master/LICENSE) and built with :heart: by Zahid Ali.
