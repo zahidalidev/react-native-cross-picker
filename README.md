@@ -3,11 +3,9 @@
 [![npm version](https://badge.fury.io/js/react-native-cross-picker.svg)]()
 <!-- [![npm downloads](https://img.shields.io/npm/dm/react-native-cross-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-cross-picker) -->
 
-
 A Picker component for React Native which emulates the native `<select>` interfaces for iOS and Android
 
 For iOS, Android or other platform this component looks same.
-
 
 ## [View examples on snack.expo.io](https://snack.expo.io/@zahidalidev/react-native-cross-picker)
 
