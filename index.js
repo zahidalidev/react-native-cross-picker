@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { View, Modal, ScrollView, TouchableOpacity, Text, TouchableWithoutFeedback } from 'react-native';
 import { RFPercentage } from 'react-native-responsive-fontsize';
 
-function ReactNativeCrossPicker({ mainComponentStyle, modalComponentStyle, modalTextStyle, items, setItem, selectedItem, placeholder = "Select Item", width = "100%", iconComponent, modalMarginTop = "50%", modalMaxHeight = RFPercentage(40), modalBottomBorderColor }) {
+function ReactNativeCrossPicker({ placeHolderColor = "grey", placeHolderSize = RFPercentage(2.9), mainComponentStyle, modalComponentStyle, modalTextStyle, items, setItem, selectedItem, placeholder = "Select Item", width = "100%", iconComponent, modalMarginTop = "50%", modalMaxHeight = RFPercentage(40), modalBottomBorderColor }) {
   const [modalVisible, setModalVisible] = useState(false)
 
   return (
     <>
       <TouchableWithoutFeedback onPress={() => setModalVisible()} >
         <View style={{ borderColor: "grey", borderWidth: 0.5, padding: RFPercentage(1.4), paddingRight: 0, borderRadius: RFPercentage(1), width, flexDirection: "row", justifyContent: "center", alignItems: "center", ...mainComponentStyle }} >
-          <Text style={{ fontSize: RFPercentage(2.9), color: "grey", width: "90%" }} >{selectedItem ? selectedItem : placeholder}</Text>
+          <Text style={{ fontSize: placeHolderSize, color: placeHolderColor, width: "90%" }} >{selectedItem ? selectedItem : placeholder}</Text>
           <View style={{ width: "10%" }} >
             {iconComponent()}
           </View>
