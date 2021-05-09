@@ -53,7 +53,15 @@ export default function Picker() {
 
   return (
     <View style={styles.container}>
-      <ReactNativeCrossPicker modalTextStyle={{}} modalComponentStyle={{}} mainComponentStyle={{ borderColor: "grey", borderWidth: 0.3 }} modalBottomBorderColor="black" iconComponent={iconComponent} items={items} width={"90%"} setItem={setItem} selectedItem={selectedItem} placeholder="Select Item" modalMarginTop={"50%"} modalMaxHeight={"40%"} />
+      <ReactNativeCrossPicker
+          modalTextStyle={{ color: "rgb(0, 74, 173)" }}
+          mainComponentStyle={{ borderColor: "rgb(0, 74, 173)" }}
+          iconComponent={iconComponent}
+          items={items}
+          setItem={setItem} selectedItem={selectedItem}
+          placeholder="Select Item" 
+          modalMarginTop={"50%"} // popup model margin from the top 
+      />
     </View>
   );
 }
