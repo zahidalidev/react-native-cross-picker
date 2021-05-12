@@ -18,16 +18,17 @@ function ReactNativeCrossPicker({ placeholderColor = "grey", placeholderSize = R
 
       <Modal onTouchStart={() => setModalVisible(false)} animationType="slide" transparent={true} visible={modalVisible} animationType="slide" >
         <View style={{ maxHeight: modalMaxHeight, marginTop: modalMarginTop, flex: 1, flexDirection: 'column', justifyContent: "center", alignItems: 'center' }} >
-          <TouchableWithoutFeedback onPress={() => setModalVisible(false)}  >
-            <Text style={{ color: "red", fontSize: RFPercentage(2), alignSelf: "flex-end", marginRight: RFPercentage(3) }} >Cancel</Text>
-          </TouchableWithoutFeedback>
 
-          <ScrollView contentContainerStyle={{ backgroundColor: "white", justifyContent: "center", width: "90%", marginLeft: "5%", ...modalComponentStyle }} style={{ marginTop: RFPercentage(2), width: "90%" }} showsVerticalScrollIndicator={false} >
+          <ScrollView contentContainerStyle={{ flexDirection: "column", backgroundColor: "white", justifyContent: "center", width: "90%", marginLeft: "5%", ...modalComponentStyle }} style={{ marginTop: RFPercentage(2), width: "90%" }} showsVerticalScrollIndicator={false} >
+            <TouchableOpacity style={{ width: "100%", top: RFPercentage(2), right: RFPercentage(3), marginBottom: RFPercentage(1) }} onPress={() => setModalVisible(false)}  >
+              <Text style={{ color: "red", fontSize: RFPercentage(2), alignSelf: "flex-end" }} >Cancel</Text>
+            </TouchableOpacity>
+
             {items.map((item, index) => <TouchableOpacity style={{ marginTop: RFPercentage(1), justifyContent: "center", alignItems: "flex-start", borderBottomWidth: modalBottomBorderColor ? 0.5 : 0, borderBottomColor: modalBottomBorderColor }} key={index} onPress={() => {
               setModalVisible(false);
               setItem(item.value)
             }} >
-              <Text style={{ padding: 12, marginLeft: RFPercentage(2), fontSize: RFPercentage(2.5), color: "grey", ...modalTextStyle }} >{item.label}</Text>
+              <Text style={{ padding: 12, paddingTop: 5, marginLeft: RFPercentage(2), fontSize: RFPercentage(2.5), color: "grey", ...modalTextStyle }} >{item.label}</Text>
             </TouchableOpacity>
             )}
           </ScrollView>
